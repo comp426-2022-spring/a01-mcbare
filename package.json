@@ -1,0 +1,27 @@
+{
+  "name": "first-webserver",
+  "version": "0.0.1",
+  "description": "A web server that takes port number as an argument.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2022-spring/a01-mcbare.git"
+  },
+  "keywords": [
+    "web",
+    "server",
+    "node"
+  ],
+  "author": "Matthew C. Bare",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2022-spring/a01-mcbare/issues"
+  },
+  "homepage": "https://github.com/comp426-2022-spring/a01-mcbare#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
